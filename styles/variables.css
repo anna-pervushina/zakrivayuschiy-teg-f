@@ -1,1 +1,18 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --inter__font: 'Inter-Variable';
+    --ps2p__font: 'PressStart2P';
+    --bg__gradient: repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px), repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px), linear-gradient(180deg, #e7e7e7 0.01%, #1a1a1a 100%);
+    --common__color: #ffffff;
+    --border__color: #000000;
+    --inline__size: 696px;
+    --contour__color: #000000;
+    --core__color: #ffffff;
+    --heart__body-sparks: #FF0000;
+} 
+
+@media (width <= 375px) {
+    :root {
+        --inline__size: 100%;
+    }
+}
