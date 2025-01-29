@@ -24,7 +24,7 @@
         fill: transparent;
     }
     to {
-        fill: var(--heart__body-sparks);
+        fill: var( --heart__color);
     }
 }
 
@@ -45,8 +45,8 @@
 }
 
 .heart:hover .main-body {
-    --heart__body-sparks: #000000;
-    fill: var(--heart__body-sparks);
+     --heart__color: #000000;
+    fill: var( --heart__color);
     transition: fill 0.3s 0.05s linear;
 }
 
@@ -67,8 +67,8 @@
 }
 
 .heart:active .main-body {
-    --heart__body-sparks: #ff0000;
-    fill: var(--heart__body-sparks);
+     --heart__color: #ff0000;
+    fill: var( --heart__color);
     transition: fill 0.3s 0.05s linear;
 }
 
@@ -83,8 +83,8 @@
 }
 
 .like-icon.is-liked .main-body {
-    --heart__body-sparks: #ff0000;
-    fill: var(--heart__body-sparks);
+     --heart__color: #ff0000;
+    fill: var( --heart__color);
     transition: fill 0.3s 0.05s linear;
 }
 

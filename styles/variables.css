@@ -1,7 +1,7 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-    --inter__font: "Inter-Variable";
-    --ps2p__font: "PressStart2P";
+    --main__font: "Inter-Variable";
+    --accent__font: "PressStart2P";
     --font__wght: 400;
     --bg__gradient: repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px), repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px), linear-gradient(180deg, #e7e7e7 0.01%, #1a1a1a 100%);
     --common__color: #ffffff;
@@ -9,7 +9,7 @@
     --inline__size: 696px;
     --contour__color: #000000;
     --core__color: #ffffff;
-    --heart__body-sparks: #ff0000;
+     --heart__color: #ff0000;
 }
 
 .card__title {
