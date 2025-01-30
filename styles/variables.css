@@ -6,10 +6,11 @@
     --bg__gradient: repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px), repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px), linear-gradient(180deg, #e7e7e7 0.01%, #1a1a1a 100%);
     --common__color: #ffffff;
     --border__color: #000000;
-    --inline__size: 696px;
+    --inline__size: 700px;
     --contour__color: #000000;
     --core__color: #ffffff;
-     --heart__color: #ff0000;
+    --heart__color: #ff0000;
+    --hover__color: #000000;
 }
 
 .card__title {
